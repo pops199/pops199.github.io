@@ -10,13 +10,13 @@ published: true
 
 # Install Portainer using Docker
 
-1. Create the volume that Portainer Server will use to store its database:
+1 - Create the volume that Portainer Server will use to store its database:
 
 ```bash
 docker volume create portainer_data
 ```
 
-2. Download and install the Portainer Server container:
+2 - Download and install the Portainer Server container:
 
 ```bash
 docker run -d \
