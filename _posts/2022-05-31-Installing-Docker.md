@@ -14,23 +14,21 @@ published: true
 Before you install Docker Engine for the first time on a new host machine, you need to set up the Docker repository. Afterward, you can install and update Docker from the repository.
 
 ### Set up the repository:
-1. Update the ''apt'' package index and install packages to allow ''apt'' to use a repository over HTTPS:
+
+1) Update the ''apt'' package index and install packages to allow ''apt'' to use a repository over HTTPS:
 
 ```bash
 sudo apt-get update 
-
 sudo apt-get install ca-certificates curl gnupg lsb-release
 ```
-
-2. Add Docker’s official GPG key:
+2) Add Docker’s official GPG key:
 
 ```bash
 sudo mkdir -p /etc/apt/keyrings
-
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 ```
 
-3. Use the following command to set up the repository:
+3) Use the following command to set up the repository:
 
 ```bash
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
@@ -41,7 +39,6 @@ Update the ''apt'' package index, and install the //latest version// of Docker E
 
 ```bash
 sudo apt-get update
-
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
