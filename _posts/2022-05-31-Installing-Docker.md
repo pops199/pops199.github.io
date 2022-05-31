@@ -1,3 +1,11 @@
+---
+title: Installing Docker on Linux
+date: 2022-05-31 18:55:00 -500
+categories: [guides, homelab, docker]
+tags: [servers,guides,homelab,docker]  # Tag names should always be lowercase
+published: true
+---
+
 # Installing Docker
 
 ![Docker](https://www.docker.com/wp-content/uploads/2022/03/horizontal-logo-monochromatic-white.png)
