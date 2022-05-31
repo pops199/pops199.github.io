@@ -15,11 +15,10 @@ Before you install Docker Engine for the first time on a new host machine, you n
 
 ### Set up the repository:
 1. Update the ''apt'' package index and install packages to allow ''apt'' to use a repository over HTTPS:
-```bash
-sudo apt-get update 
-```
 
 ```bash
+sudo apt-get update 
+
 sudo apt-get install ca-certificates curl gnupg lsb-release
 ```
 
@@ -27,9 +26,7 @@ sudo apt-get install ca-certificates curl gnupg lsb-release
 
 ```bash
 sudo mkdir -p /etc/apt/keyrings
-```
 
-```bash
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 ```
 
@@ -44,9 +41,7 @@ Update the ''apt'' package index, and install the //latest version// of Docker E
 
 ```bash
 sudo apt-get update
-```
 
-```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
