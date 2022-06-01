@@ -6,8 +6,6 @@ tags: [servers,guides,homelab,docker]  # Tag names should always be lowercase
 published: true
 ---
 
-# Installing Docker
-
 ![Docker](https://www.docker.com/wp-content/uploads/2022/03/horizontal-logo-monochromatic-white.png)
 
 ## Install using the repository

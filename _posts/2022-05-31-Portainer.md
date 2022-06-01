@@ -8,8 +8,6 @@ published: true
 
 ![Portainer](https://www.seekpng.com/png/full/717-7171842_portainer-logo.png)
 
-# Install Portainer using Docker
-
 1 - Create the volume that Portainer Server will use to store its database:
 
 ```bash
