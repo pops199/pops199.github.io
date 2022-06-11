@@ -86,7 +86,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://github.com/pops199/pops199.github.io/blob/20f2088a389c1949fbeeef485495a1ac86f6adc7/assets/20210822_151952.jpg
+avatar: https://github.com/pops199/pops199.github.io/blob/f5c553669dc8fec49fae5bceced8e6c1533e4fff/assets/2022-06-01_20-28.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
