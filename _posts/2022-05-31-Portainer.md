@@ -17,7 +17,7 @@ docker volume create portainer_data
 2 - Download and install the Portainer Server container:
 
 ```bash
-docker run -d \
+sudo docker run -d \
     -p 8000:8000 \
     -p 9443:9443 \
     --name portainer \
