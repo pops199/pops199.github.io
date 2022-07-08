@@ -24,7 +24,7 @@ docker run -d \
     --restart=always \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -v portainer_data:/data \
-    portainer/portainer-ce:2.9.3
+    portainer/portainer-ce:latest
 ```
 
 ## Logging In:
@@ -38,3 +38,33 @@ https://localhost:9443
 Replace ''localhost'' with the relevant IP address or FQDN if needed, and adjust the port if you changed it earlier.
 
 You will be presented with the initial setup page for Portainer Server.
+
+# Upgrading Portainer
+
+To upgrade Portainer we need to stop and remove the current Portainer instance.
+
+```bash
+sudo docker stop portainer
+```
+```bash
+sudo docker rm portainer
+```
+
+Now we need to pull the latest image again, otherwise docker will just use the existing image named "latest"
+
+```bash
+docker pull portainer/portainer-ce:latest
+```
+
+Now launch the container with docker run in the terminal:
+
+```bash
+docker run -d \
+    -p 8000:8000 \
+    -p 9443:9443 \
+    --name portainer \
+    --restart=always \
+    -v /var/run/docker.sock:/var/run/docker.sock \
+    -v portainer_data:/data \
+    portainer/portainer-ce:latest
+```
