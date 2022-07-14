@@ -1,7 +1,7 @@
 ---
 title: Installing Portainer Using Docker
 date: 2022-05-31 18:55:00 -500
-categories: [guides, homelab, docker, portainer]
+categories: [docker, portainer]
 tags: [servers,guides,homelab,docker,portainer]  # Tag names should always be lowercase
 published: true
 ---

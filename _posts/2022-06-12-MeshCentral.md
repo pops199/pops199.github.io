@@ -1,7 +1,7 @@
 ---
 title: Installing MeshCentral on AWS
 date: 2022-06-12 14:55:00 -500
-categories: [cloud, meshcentral, aws]
+categories: [docker, meshcentral]
 tags: [servers,guides,meshcentral,aws,cloud]  # Tag names should always be lowercase
 published: true
 ---
