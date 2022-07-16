@@ -1,7 +1,7 @@
 ---
 title: Installing Docker on Linux
 date: 2022-05-31 18:55:00 -500
-categories: [guides]
+categories: [guides, docker, linux]
 tags: [servers,guides,homelab,docker]  # Tag names should always be lowercase
 published: true
 ---

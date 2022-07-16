@@ -1,7 +1,7 @@
 ---
 title: Installing EmulaterJS on Docker
 date: 2022-07-08 14:55:00 -500
-categories: [docker]
+categories: [guides, docker]
 tags: [servers,guides,games,os]  # Tag names should always be lowercase
 published: true
 ---
